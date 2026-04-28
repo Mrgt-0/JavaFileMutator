@@ -1,0 +1,17 @@
+2026-04-28 23:12:09 [INFO ] c.p.r.NativeLoader:214 - Start check license in other process
+2026-04-28 23:12:09 [INFO ] c.p.r.NativeLoader:171 - ********************************
+2026-04-28 23:12:09 [INFO ] c.p.r.NativeLoader:172 - Additional native libraries search paths: 
+2026-04-28 23:12:09 [INFO ] c.p.r.NativeLoader:1024 - C:\Program Files\Java\jdk-25\bin
+2026-04-28 23:12:09 [INFO ] c.p.r.NativeLoader:203 - Additional not loaded native library found: C:\Program Files\Java\jdk-25\bin\server\jvm.dll
+2026-04-28 23:12:09 [INFO ] c.p.r.NativeLoader:206 - ********************************
+2026-04-28 23:12:09 [INFO ] c.p.r.NativeLoader:147 - ********************************
+2026-04-28 23:12:09 [INFO ] c.p.r.NativeLoader:148 - Native library search paths: 
+2026-04-28 23:12:09 [INFO ] c.p.r.NativeLoader:1024 - C:\Users\Trita\AppData\Roaming\PVS-Studio-Java\7.42.105102
+2026-04-28 23:12:09 [INFO ] c.p.r.NativeLoader:1024 - .
+2026-04-28 23:12:09 [INFO ] c.p.r.NativeLoader:1024 - C:\Users\Trita\AppData\Roaming\PVS-Studio-Java\7.42.105102\..
+2026-04-28 23:12:09 [INFO ] c.p.r.NativeLoader:1024 - C:\Users\Trita\AppData\Roaming\PVS-Studio-Java\7.42.105102\..\..
+2026-04-28 23:12:09 [INFO ] c.p.r.NativeLoader:1024 - C:\Users\Trita\AppData\Roaming\PVS-Studio-Java\7.42.105102\..\..\build
+2026-04-28 23:12:09 [INFO ] c.p.r.NativeLoader:150 - Additional path: native/win
+2026-04-28 23:12:09 [INFO ] c.p.r.NativeLoader:159 - Native library found: C:\Users\Trita\AppData\Roaming\PVS-Studio-Java\7.42.105102\native\win\analysis-core.dll
+2026-04-28 23:12:09 [INFO ] c.p.r.NativeLoader:160 - ********************************
+2026-04-28 23:12:09 [INFO ] c.p.r.NativeLoader:216 - End check license in other process

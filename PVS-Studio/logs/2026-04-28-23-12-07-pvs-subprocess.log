@@ -1,0 +1,53 @@
+2026-04-28 23:12:10 [DEBUG] c.p.r.ModuleModelBuilder:110 - unknown
+2026-04-28 23:12:10 [INFO ] c.p.p.IncrementalLauncher:260 - Build model from scratch...
+2026-04-28 23:12:10 [INFO ] c.p.p.Module:307 - Module name: unknown Compliance level: 21
+2026-04-28 23:12:11 [ERROR] c.p.p.Module:360 - Model build failed: The type V6001TypicalCases is already defined
+spoon.compiler.ModelBuildingException: The type V6001TypicalCases is already defined
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.reportProblem(JDTBasedSpoonCompiler.java:626)
+	at spoon.support.compiler.jdt.TreeBuilderRequestor.acceptResult(TreeBuilderRequestor.java:29)
+	at spoon.support.compiler.jdt.TreeBuilderCompiler.buildUnits(TreeBuilderCompiler.java:116)
+	at spoon.support.compiler.jdt.JDTBatchCompiler.getUnits(JDTBatchCompiler.java:295)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.buildUnits(JDTBasedSpoonCompiler.java:453)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.buildUnitsAndModel(JDTBasedSpoonCompiler.java:386)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.buildSources(JDTBasedSpoonCompiler.java:347)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.build(JDTBasedSpoonCompiler.java:118)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.build(JDTBasedSpoonCompiler.java:101)
+	at spoon.Launcher.buildModel(Launcher.java:781)
+	at com.pvsstudio.projects.Module.build(Module.java:349)
+	at com.pvsstudio.runner.ModuleModelBuilder.createModuleWorkerWithBuiltModelAndAnalyzeTasksForModule(ModuleModelBuilder.java:140)
+	at com.pvsstudio.runner.AnalyzerRunner.run(AnalyzerRunner.java:164)
+	at com.pvsstudio.Main.main(Main.java:556)
+2026-04-28 23:12:11 [ERROR] c.p.r.AnalyzerRunner:202 - Unable to start the analysis on unknown module. Unable to start the analysis on 'unknown' module..
+com.pvsstudio.PvsStudioBuildException: Unable to start the analysis on 'unknown' module.
+	at com.pvsstudio.runner.ModuleModelBuilder.createModuleWorkerWithBuiltModelAndAnalyzeTasksForModule(ModuleModelBuilder.java:181)
+	at com.pvsstudio.runner.AnalyzerRunner.run(AnalyzerRunner.java:164)
+	at com.pvsstudio.Main.main(Main.java:556)
+Caused by: spoon.compiler.ModelBuildingException: The type V6001TypicalCases is already defined
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.reportProblem(JDTBasedSpoonCompiler.java:626)
+	at spoon.support.compiler.jdt.TreeBuilderRequestor.acceptResult(TreeBuilderRequestor.java:29)
+	at spoon.support.compiler.jdt.TreeBuilderCompiler.buildUnits(TreeBuilderCompiler.java:116)
+	at spoon.support.compiler.jdt.JDTBatchCompiler.getUnits(JDTBatchCompiler.java:295)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.buildUnits(JDTBasedSpoonCompiler.java:453)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.buildUnitsAndModel(JDTBasedSpoonCompiler.java:386)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.buildSources(JDTBasedSpoonCompiler.java:347)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.build(JDTBasedSpoonCompiler.java:118)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.build(JDTBasedSpoonCompiler.java:101)
+	at spoon.Launcher.buildModel(Launcher.java:781)
+	at com.pvsstudio.projects.Module.build(Module.java:349)
+	at com.pvsstudio.runner.ModuleModelBuilder.createModuleWorkerWithBuiltModelAndAnalyzeTasksForModule(ModuleModelBuilder.java:140)
+	... 2 common frames omitted
+2026-04-28 23:12:11 [INFO ] c.p.r.NativeLoader:171 - ********************************
+2026-04-28 23:12:11 [INFO ] c.p.r.NativeLoader:172 - Additional native libraries search paths: 
+2026-04-28 23:12:11 [INFO ] c.p.r.NativeLoader:1024 - C:\Program Files\Java\jdk-25\bin
+2026-04-28 23:12:11 [INFO ] c.p.r.NativeLoader:203 - Additional not loaded native library found: C:\Program Files\Java\jdk-25\bin\server\jvm.dll
+2026-04-28 23:12:11 [INFO ] c.p.r.NativeLoader:206 - ********************************
+2026-04-28 23:12:11 [INFO ] c.p.r.NativeLoader:147 - ********************************
+2026-04-28 23:12:11 [INFO ] c.p.r.NativeLoader:148 - Native library search paths: 
+2026-04-28 23:12:11 [INFO ] c.p.r.NativeLoader:1024 - C:\Users\Trita\AppData\Roaming\PVS-Studio-Java\7.42.105102
+2026-04-28 23:12:11 [INFO ] c.p.r.NativeLoader:1024 - .
+2026-04-28 23:12:11 [INFO ] c.p.r.NativeLoader:1024 - C:\Users\Trita\AppData\Roaming\PVS-Studio-Java\7.42.105102\..
+2026-04-28 23:12:11 [INFO ] c.p.r.NativeLoader:1024 - C:\Users\Trita\AppData\Roaming\PVS-Studio-Java\7.42.105102\..\..
+2026-04-28 23:12:11 [INFO ] c.p.r.NativeLoader:1024 - C:\Users\Trita\AppData\Roaming\PVS-Studio-Java\7.42.105102\..\..\build
+2026-04-28 23:12:11 [INFO ] c.p.r.NativeLoader:150 - Additional path: native/win
+2026-04-28 23:12:11 [INFO ] c.p.r.NativeLoader:159 - Native library found: C:\Users\Trita\AppData\Roaming\PVS-Studio-Java\7.42.105102\native\win\analysis-core.dll
+2026-04-28 23:12:11 [INFO ] c.p.r.NativeLoader:160 - ********************************
